@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Server App Desktop Settings",
+  "title": "ServerAppDesktop Settings",
   "type": "object",
   "required": [
     "edition",
@@ -34,7 +34,7 @@
     },
     "theme": {
       "type": "string",
-      "enum": ["mica", "mica-alt", "desktop-acrylic", "none"]
+      "enum": ["mica", "micaalt", "mica-alt", "desktop", "acrylic", "none"]
     },
     "mode": {
       "type": "string",
